@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "jump_log:block/bounce_log_top",
+    "side": "jump_log:block/bounce_log"
+  }
+}

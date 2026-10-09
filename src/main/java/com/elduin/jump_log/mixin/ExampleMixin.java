@@ -1,6 +1,6 @@
-package com.example.modtemplate.mixin;
+package com.elduin.jump_log.mixin;
 
-import com.example.modtemplate.ModTemplate;
+import com.elduin.jump_log.JumpLog;
 import dev.kikugie.fletching_table.annotation.MixinEnvironment;
 import net.minecraft.server.MinecraftServer;
 import org.spongepowered.asm.mixin.Mixin;
@@ -14,7 +14,7 @@ public class ExampleMixin {
 
 	@Inject(method = "loadLevel", at = @At("RETURN"))
 	private void afterLoadLevel(CallbackInfo ci) {
-		ModTemplate.LOGGER.info("Level Loaded!");
+		JumpLog.LOGGER.info("Level Loaded!");
 	}
 
 }

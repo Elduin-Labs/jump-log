@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "minecraft:oak_log",
+    "minecraft:slime_ball",
+    "minecraft:slime_ball"
+  ],
+  "result": {
+    "id": "jump_log:bounce_log",
+    "count": 1
+  }
+}

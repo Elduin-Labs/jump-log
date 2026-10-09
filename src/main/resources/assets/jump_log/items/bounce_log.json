@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "jump_log:block/bounce_log"
+  }
+}
