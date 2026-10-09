@@ -13,12 +13,12 @@ import net.minecraft.world.phys.Vec3;
 
 /**
  * What the Bounce Log does. A player standing on one (and not sneaking) is thrown upward.
- * The throw is about 6 blocks per tick, which is roughly a 120 block jump. Minecraft's own
+ * The throw is about 9 blocks per tick, which is roughly a 210 block jump. Minecraft's own
  * speed check kicks in at 10 blocks per tick, so this stays safely under it.
  */
 public final class BounceLog {
 
-	public static final double LAUNCH_SPEED = 6.0;
+	public static final double LAUNCH_SPEED = 9.0;
 
 	/** How long (in ticks) a launched player is safe from fall damage: one minute. */
 	private static final long SAFE_TICKS = 20 * 60;
